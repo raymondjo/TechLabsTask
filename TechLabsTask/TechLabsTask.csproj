@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <AzureFunctionsVersion>v1</AzureFunctionsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.42" />
+    <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="9.1.0.92" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.24" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRMEarlyBoundClasses\CRMEarlyBoundClasses.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>

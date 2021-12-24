@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechLabsTask", "TechLabsTask.csproj", "{16267662-96C6-46AB-B356-D970E8AE8E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMEarlyBoundClasses", "..\CRMEarlyBoundClasses\CRMEarlyBoundClasses.csproj", "{62FF309B-1039-44BE-B2E4-6F833BA88A64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16267662-96C6-46AB-B356-D970E8AE8E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16267662-96C6-46AB-B356-D970E8AE8E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16267662-96C6-46AB-B356-D970E8AE8E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16267662-96C6-46AB-B356-D970E8AE8E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62FF309B-1039-44BE-B2E4-6F833BA88A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62FF309B-1039-44BE-B2E4-6F833BA88A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62FF309B-1039-44BE-B2E4-6F833BA88A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62FF309B-1039-44BE-B2E4-6F833BA88A64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9778D91E-95C6-403B-817F-38BCA59939DA}
+	EndGlobalSection
+EndGlobal
